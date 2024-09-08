@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 A continuación, se presenta una síntesis de la temática estudiada en el componente formativo.
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="La síntesis presenta  la clasificación  los espacios físicos en espacio real y espacio vital, subdividiendo el espacio real en espacio potencial, espacio artificial (urbano), y espacio natural, que a su vez se divide en adaptado (rural) y prístino. Cada categoría incluye una breve descripción que destaca las características y el grado de intervención humana en dichos espacios.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
