@@ -8,7 +8,7 @@
       h1 Opciones y oportunidades que plantea y propone la nueva ruralidad
 
     .full-width-bg.bg-fondo-4
-      .p-4.p-md-5
+      .p-0.p-md-5
         p.mb-5.mt-4.mt-sm-0 La nueva ruralidad propone tres tipos de opciones y oportunidades: la multifuncionalidad, la pluriactividad y el empleo rural no agrícola. 
 
         .row.justify-content-center.mb-4
@@ -55,9 +55,9 @@
                 img.img-fluid(src="@/assets/curso/tema3/5.png", style="max-width:100%", alt="").mx-auto.mb-4
 
 
-        p.mb-0 #[strong Es necesario establecer que el éxito o fracaso de estas actividades planteadas dependerá de:]
+        p.mb-5.mb-lg-0 #[strong Es necesario establecer que el éxito o fracaso de estas actividades planteadas dependerá de:]
     
-    .tarjeta.bg-fondo-diapositiva-2.py-5.px-4.mb-5
+    .tarjeta.bg-fondo-diapositiva-2.pb-4.pt-3.py-lg-5.px-4.mb-5
       SlyderA(tipo='b').mt-4
         .row.justify-content-center
           .col-lg-6
@@ -114,13 +114,13 @@
           .col-lg-10
             .row.justify-content-center.align-items-stretch
               .col-lg-6.mb-4.mb-lg-0
-                .tarjeta--boton.bg-fondo-tarjeta.p-4.h-100.mb-4.mb-lg-0
+                .tarjeta--boton.card-bg.p-4.h-100.mb-4.mb-lg-0
                   img(src='@/assets/curso/tema3/11.png', style="max-width:100%", alt="").mx-auto.mb-4
                   h5.text-center Migración a las ciudades
                   p.lh-base.text-center.text-lg-left.text-small Una opción para los habitantes del medio rural es migrar a las ciudades en busca de mejores oportunidades económicas.
 
               .col-lg-6.mb-4.mb-lg-0
-                .tarjeta--boton.bg-fondo-tarjeta.p-4.h-100.mb-4.mb-lg-0
+                .tarjeta--boton.card-bg.p-4.h-100.mb-4.mb-lg-0
                   img(src='@/assets/curso/tema3/12.png', style="max-width:100%", alt="").mx-auto.mb-4
                   h5.text-center Diversificación de actividades en el campo
                   p.lh-base.text-center.text-lg-left.text-small La otra opción es diversificar las actividades dentro del campo, aprovechando el empleo rural no agrícola para incrementar los ingresos y mejorar las condiciones de vida sin abandonar el entorno rural.

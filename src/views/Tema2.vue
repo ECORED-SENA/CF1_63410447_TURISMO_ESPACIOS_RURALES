@@ -35,44 +35,44 @@
       .p-4.p-md-5.py-md-0.pb-md-2
         p.mb-5 Sin embargo, estas no son las únicas actividades. También se incluyen la pesca, la ganadería, la minería, la extracción de recursos naturales, el turismo y la recreación. Los problemas que afectan a quienes habitan los espacios urbanos y rurales, así como la búsqueda del equilibrio territorial entre ambos, plantean nuevas funciones al espacio rural, que serán la oportunidad para alcanzar el equilibrio y el desarrollo. #[strong Estas funciones incluyen:] 
 
-      .bgCarrusel
+      .carousel-bg
         .row.justify-content-center.align-items-center.my-5
           .col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/tema2/4.png', style="max-width: 100%", alt='').m-auto
           .col-lg-8
             SlyderF.mb-5(columnas="col-lg-6 col-xxl-4")
-              .tarjeta.bgWhite.p-4.shadow-top-left-right
+              .tarjeta.bg-white.p-4.shadow-top-left-right
                   img(src='@/assets/curso/tema2/5.svg', style="max-width: 89px", alt='').mx-auto.mb-4
                   h6.text-center #[strong Equilibrio ecológico] 
                   p.text-center.text-small.lh-sm Conjunto de equipos interconectados que comparten recursos utilizando dispositivos que permiten el envío y recepción de datos. Facilitan la compartición de recursos y reducción de costos en una red informática.
 
-              .tarjeta.bgWhite.p-4.shadow-top-left-right
+              .tarjeta.bg-white.p-4.shadow-top-left-right
                 .row.justify-content-center.mb-3
                   .col-8
                     img(src='@/assets/curso/tema2/6.svg', style="max-width: 89px", alt='').m-auto
                 h6.text-center Producción de agua limpia 
                 p.text-center.text-small.lh-sm Las TIC han transformado el acceso a contenidos, servicios y aplicaciones. Servicios como comercio electrónico, banca en línea, y acceso a la administración pública han surgido como nuevos canales de difusión de productos y servicios.
               
-              .tarjeta.bgWhite.p-4.shadow-top-left-right
+              .tarjeta.bg-white.p-4.shadow-top-left-right
                 .row.justify-content-center.mb-3
                   .col-8
                     img(src='@/assets/curso/tema2/7.svg', style="max-width: 89px", alt='').m-auto
                 h6.text-center Espacios de recreación 
                 p.text-center.text-small.lh-sm Provisión de áreas para la recreación y el esparcimiento al aire libre, cada vez más necesarios para la población urbana. 
 
-              .tarjeta.bgWhite.p-4.shadow-top-left-right
+              .tarjeta.bg-white.p-4.shadow-top-left-right
                   img(src='@/assets/curso/tema2/8.svg', style="max-width: 89px", alt='').mx-auto.mb-4
                   h6.text-center #[strong Equilibrio territorial] 
                   p.text-center.text-small.lh-sm Logro de la fijación de la población en el área rural y freno al despoblamiento. 
 
-              .tarjeta.bgWhite.p-4.shadow-top-left-right
+              .tarjeta.bg-white.p-4.shadow-top-left-right
                 .row.justify-content-center.mb-3
                   .col-8
                     img(src='@/assets/curso/tema2/9.svg', style="max-width: 89px", alt='').m-auto
                 h6.text-center Producción de recursos 
                 p.text-center.text-small.lh-sm Producción de fibras, energía y recursos minerales en el espacio rural. 
               
-              .tarjeta.bgWhite.p-4.shadow-top-left-right
+              .tarjeta.bg-white.p-4.shadow-top-left-right
                 .row.justify-content-center.mb-3
                   .col-8
                     img(src='@/assets/curso/tema2/10.svg', style="max-width: 89px", alt='').m-auto

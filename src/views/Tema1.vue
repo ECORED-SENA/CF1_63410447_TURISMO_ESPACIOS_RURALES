@@ -51,13 +51,13 @@
           .col-lg-10
             .row.justify-content-center.align-items-stretch
               .col-lg-6.mb-4.mb-lg-0
-                .tarjeta--boton.bg-fondo-tarjeta.p-4.h-100.mb-4.mb-lg-0
+                .tarjeta--boton.card-bg.p-4.h-100.mb-4.mb-lg-0
                   img(src='@/assets/curso/tema1/5.png', style="max-width:100%", alt="").mx-auto.mb-4
                   h5.text-center Crisis del sector agropecuario
                   p.lh-base.text-center.text-lg-left.text-small La crisis en el sector agropecuario ha obligado a buscar nuevas oportunidades, destacando el aprovechamiento de un paisaje relativamente poco contaminado como el principal recurso de las áreas rurales.
 
               .col-lg-6.mb-4.mb-lg-0
-                .tarjeta--boton.bg-fondo-tarjeta.p-4.h-100.mb-4.mb-lg-0
+                .tarjeta--boton.card-bg.p-4.h-100.mb-4.mb-lg-0
                   img(src='@/assets/curso/tema1/6.png', style="max-width:100%", alt="").mx-auto.mb-4
                   h5.text-center Dificultades tecnológicas e industrialización
                   p.lh-base.text-center.text-lg-left.text-small La tecnología ha impulsado la industrialización de la agricultura, intensificando el uso de recursos de capital. Sin embargo, sectores agrícolas que no pueden acceder al mercado de capitales y que cuentan con pequeños predios han sido marginados, lo que ha generado el abandono de los campos.

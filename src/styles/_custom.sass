@@ -1,232 +1,236 @@
-.banner-principal-decorativo
-  &-1  // Mapa mundi con avión
-    animation: bounce-location 3s ease-in-out infinite alternate
-    position: absolute
-    top: 16%
-    right: 15%
-
-  &-2  // Cara
-    animation: float-face 4s ease-in-out infinite alternate
-    position: absolute
-    top: 41%
-    left: 0%
-
-  &-3  // Elemento de ubicación
-    animation: float-plane 6s ease-in-out infinite alternate
-    position: absolute
-    bottom: 5%
-    right: 30%
-
-@keyframes float-plane
-  0%
-    transform: translate(0px, 0px) rotate(0deg)
+// Animations
+@keyframes plane-move
+  0%, 100%
+    transform: translateX(0) translateY(0) rotate(0deg)
+  25%
+    transform: translateX(25px) translateY(-10px) rotate(45deg)
   50%
-    transform: translate(15px, -10px) rotate(5deg)
-  100%
-    transform: translate(30px, 0px) rotate(0deg)
+    transform: translateX(50px) translateY(0) rotate(90deg)
+  75%
+    transform: translateX(25px) translateY(10px) rotate(45deg)
 
 @keyframes float-face
-  0%
+  0%, 100%
     transform: translateY(10px)
-  100%
+  50%
     transform: translateY(-10px)
 
 @keyframes bounce-location
-  0%
-    transform: translateY(0px) scale(1)
+  0%, 100%
+    transform: translateY(0) scale(1)
   50%
     transform: translateY(-10px) scale(1.1)
-  100%
-    transform: translateY(0px) scale(1)
 
+// Banner Decorations
+.banner-principal-decorativo
+  &-1, &-2, &-3
+    position: absolute
+  &-1
+    animation: bounce-location 3s ease-in-out infinite alternate
+    top: 16%
+    right: 15%
+  &-2
+    animation: float-face 4s ease-in-out infinite
+    top: 41%
+    left: 0
+  &-3
+    animation: plane-move 8s ease-in-out infinite
+    bottom: 5%
+    right: 30%
+
+// Typography
 .text-md
   font-size: 0.94rem
 
+// Backgrounds
 .banner-interno__fondo
   background: url('../assets/curso/portada/banner-interno-fondo.png') no-repeat top left !important
 
-.shadow-soft
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
+.bg-fondo
+  &-1
+    background: url('../assets/curso/bg/fondo-1.svg') no-repeat top left
+  &-2, &-3, &-4, &-5
+    background: no-repeat center center
+  &-2
+    background-image: url('../assets/curso/bg/fondo-2.svg')
+  &-3
+    background-image: url('../assets/curso/bg/fondo-3.svg')
+  &-4
+    background-image: url('../assets/curso/bg/fondo-4.svg')
+  &-5
+    background-image: url('../assets/curso/bg/fondo-5.svg')
 
-.shadow-top-left-right
-  box-shadow: -4px 0 6px -2px rgba(0, 0, 0, 0.1), 4px 0 6px -2px rgba(0, 0, 0, 0.1)
+// Shadows
+.shadow
+  &-soft
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
+  &-top-left-right
+    box-shadow: -4px 0 6px -2px rgba(0, 0, 0, 0.1), 4px 0 6px -2px rgba(0, 0, 0, 0.1)
 
-.bg-color-p
-  background-color: $color-primario
-.bg-color-p20
-  background-color: $color-primario-p20
-.bg-color-p10
-  background-color: $color-primario-p10
-.bg-color-t
-  background-color: $color-terciario
-.bg-color-ac10
-  background-color: $color-acento-contenido-a10
-.bg-color-ac20
-  background-color: $color-acento-contenido-a20
+// Colors
+.bg-color
+  &-p
+    background-color: $color-primario
+  &-p20
+    background-color: $color-primario-p20
+  &-p10
+    background-color: $color-primario-p10
+  &-t
+    background-color: $color-terciario
+  &-ac10
+    background-color: $color-acento-contenido-a10
+  &-ac20
+    background-color: $color-acento-contenido-a20
 
+// Title Styles
 .titulo-tres
   position: relative
   background: $color-acento-contenido
   border-radius: 24px
   display: inline-block
-  padding: 0.4rem 1.4rem
-  padding-left: 60px
+  padding: 0.4rem 1.4rem 0.4rem 60px
 
-  h3,h4
+  h3, h4
     margin: 0
+    line-height: 110% !important
+    @media screen and (max-width: $bp-max-sm)
+      font-size: 0.99rem
 
   &::after
     content: ''
     position: absolute
-    top: 50%  // El fondo comienza desde el 10% de la altura del contenedor
+    top: 50%
     left: 0
     width: 100%
-    height: 51px  // El fondo cubre el 80% de la altura del contenedor
-    transform: translateY(-50%)  // Lo centramos verticalmente
-    background:  url('../assets/curso/tema3/title-h3.svg') transparent no-repeat bottom left
+    height: 51px
+    transform: translateY(-50%)
+    background: url('../assets/curso/tema3/title-h3.svg') transparent no-repeat bottom left
 
-
-.text-lg-left
-  @media screen and (min-width: $bp-min-lg)
+// Responsive Text Alignment
+@media screen and (min-width: $bp-min-lg)
+  .text-lg-left
     text-align: left !important
 
-.bg-fondo-tarjeta
+// Card Backgrounds
+.card-bg
   background: url('../assets/curso/bg/fondo-tarjeta-2.svg') $color-primario-p10 no-repeat bottom left
-
   &:hover
     background: url('../assets/curso/bg/fondo-tarjeta-1.svg') $color-acento-contenido-a10 no-repeat bottom left
 
-.bg-fondo-diapositiva-1
-  background: url('../assets/curso/bg/fondo-diapositiva-1.svg') $color-acento-contenido-a10 no-repeat center center
+.bg-fondo-diapositiva
+  &-1
+    background: url('../assets/curso/bg/fondo-diapositiva-1.svg') no-repeat center center
+    background-size: cover
+  &-2
+    background: url("../assets/curso/bg/fondo-diapositiva-2.svg") no-repeat center center
+    background-size: cover
 
-.bg-fondo-diapositiva-2
-  background: url("../assets/curso/bg/fondo-diapositiva-2.svg") no-repeat center center
-  background-size: cover
-
-.bgWhite
+.bg-white
   background: url('../assets/curso/bg/fondo-tarjeta-3.svg') #fff no-repeat bottom left
 
-
+// Full Width Background
 .full-width-bg
-  height: 100% // Ajusta la altura según tus necesidades
-  width: calc(100% + var(--bs-gutter-x) * 2) // Extiende el fondo para cubrir el padding
-  background-size: cover // Ajusta según tus necesidades ('cover', 'contain', etc.)
-  background-repeat: no-repeat // Evita la repetición del fondo
-  background-position: center // Centra el fondo
-  margin-left: -3rem // Mueve el fondo hacia la izquierda para cubrir el padding
-  margin-right: -3rem // Mueve el fondo hacia la derecha para cubrir el padding
+  height: 100%
+  width: calc(100% + var(--bs-gutter-x) * 2)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-left: -3rem
+  margin-right: -3rem
   @media screen and (max-width: $bp-min-sm)
-    padding-left: 3rem // Ajusta el padding según el margen negativo
-    padding-right: 3rem // Ajusta el padding según el margen negativo
+    padding-left: 3rem
+    padding-right: 3rem
 
+// Carousel Styles
+.carousel-bg .fas
+  &.fa-chevron-left, &.fa-chevron-right
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    width: 40px
+    height: 40px
+    background-color: $color-acento-botones
+    border-radius: 50%
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+    color: #fff
+    font-size: 16px
 
-.bg-fondo-1
-  background: url('../assets/curso/bg/fondo-1.svg') no-repeat top left
+// Slider Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+  .slyder-f
+    &__main
+      width: 76%
+    &__btn
+      width: 12%
 
-.bg-fondo-2
-  background: url('../assets/curso/bg/fondo-2.svg') no-repeat center center
+@media screen and (max-width: $bp-max-xs)
+  .slyder-f
+    &__main
+      width: 60%
+    &__btn
+      width: 20%
 
-.bg-fondo-3
-  background: url('../assets/curso/bg/fondo-3.svg') no-repeat center center
-
-.bg-fondo-4
-  background: url('../assets/curso/bg/fondo-4.svg') no-repeat center center
-
-.bg-fondo-5
-  background: url('../assets/curso/bg/fondo-5.svg') no-repeat center center
-
-.bgCarrusel
-  .fas
-      &.fa-chevron-left, &.fa-chevron-right
-        display: inline-flex
-        align-items: center
-        justify-content: center
-        width: 40px // Ajusta el tamaño según lo necesario
-        height: 40px // Ajusta el tamaño según lo necesario
-        background-color: $color-acento-botones // Cambia el color del fondo si es necesario
-        border-radius: 50% // Esto crea el círculo
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) // Opcional: agrega una sombra para mayor contraste
-        color: #fff // Cambia el color del icono si es necesario
-        font-size: 16px // Ajusta el tamaño del icono si es necesario
-
-
-.slyder-f__main
-  @media screen and (max-width: $bp-max-sm)
-    width: 76%
-  @media screen and (max-width: $bp-max-xs)
-    width: 60%
-.slyder-f__btn
-  @media screen and (max-width: $bp-max-sm)
-    width: 12%
-  @media screen and (max-width: $bp-max-xs)
-    width: 20%
-
-.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
-  background: $color-acento-botones
-  border: 0
-  color: #fff
-
-.slyder-a__btn--sigt, .slyder-a__btn--atrs
+// Button Styles
+.btn-accent
   background-color: $color-acento-botones
   border: 0
   color: #fff
   opacity: 1
 
-.slyder-a__bullets__item--active
-  background-color: $color-acento-botones !important
-  border-color: $color-acento-botones
-
+// Slider Bullet Styles
 .slyder-a__bullets__item
-  background-color: rgba($color-acento-botones, 0.3) 
+  background-color: rgba($color-acento-botones, 0.3)
+  &--active
+    background-color: $color-acento-botones !important
+    border-color: $color-acento-botones
 
+// Accordion Styles
 .acordion__activo
   background: $color-primario-p10
 
-.acordion__accion__btn--a
-  background: $color-acento-botones
-  border: 0
-  color: #fff
-
+// Background with Height
 .bg-h80-p10
-  position: relative  // Necesario para que el ::after sea posicionado relativo a este contenedor
-  @media screen and (max-width: $bp-max-md)
-    padding: 1rem
+  position: relative
   
   &::after
     content: ''
     position: absolute
-    top: 50%  // El fondo comienza desde el 10% de la altura del contenedor
+    top: 50%
     left: 0
     width: 100%
-    height: 60%  // El fondo cubre el 80% de la altura del contenedor
-    transform: translateY(-50%)  // Lo centramos verticalmente
-    background-color: $color-primario-p10  // Ajusta el color de fondo que desees
-    z-index: 0  // Debe estar detrás del contenido pero encima del fondo principal
-    @media screen and (max-width: $bp-max-md)
-      height: 100%  // El fondo cubre el 80% de la altura del contenedor
+    height: 60%
+    transform: translateY(-50%)
+    background-color: $color-primario-p10
+    z-index: 0
   
-
-  // Asegura que el contenido esté en un nivel superior al ::after
   .col-lg-10, .row
     z-index: 1
 
-.custom-list
-  list-style-type: none  // Elimina las viñetas predeterminadas
-  padding-left: 0  // Elimina el padding predeterminado del ul
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+    
+    &::after
+      height: 100%
 
+// Custom List Styles
+.custom-list
+  list-style-type: none
+  padding-left: 0
+  
   li
     position: relative
-    padding-left: 1.4rem  // Espacio para la imagen de la viñeta
-
+    padding-left: 1.4rem
+    
     &::before
-      content: url('../assets/curso/bg/chk.svg')  // Reemplaza la viñeta por la imagen
+      content: url('../assets/curso/bg/chk.svg')
       position: absolute
       left: 0
       top: 2%
-      width: 12px  // Ajusta el tamaño de la imagen
-      height: 12px  // Ajusta el tamaño de la imagen
+      width: 12px
+      height: 12px
 
-.linea-tiempo-c__header__item__year 
+// Timeline Styles
+.linea-tiempo-c__header__item__year
   white-space: nowrap
   overflow: hidden
   text-overflow: ellipsis
@@ -234,3 +238,29 @@
   @media screen and (max-width: $bp-max-md)
     max-width: 70%
 
+// Slider Bullet Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+  .slyder-a__bullets__item
+    margin: 0 3px
+
+// Estilos para botones de navegación y control
+.linea-tiempo-c__header__btn,
+.linea-tiempo-c__header__btn--left,
+.linea-tiempo-c__header__btn--right,
+.pasos-b__header__btn--left,
+.pasos-b__header__btn--right
+  background: $color-acento-botones
+  border: 0
+  color: #fff
+
+.slyder-a__btn--sigt,
+.slyder-a__btn--atrs
+  background-color: $color-acento-botones
+  border: 0
+  color: #fff
+  opacity: 1
+
+.acordion__accion__btn--a
+  background: $color-acento-botones
+  border: 0
+  color: #fff
