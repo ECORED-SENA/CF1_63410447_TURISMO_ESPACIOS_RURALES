@@ -97,7 +97,7 @@
                 .col-7
                   figure
                     img(src='@/assets/curso/tema2/11.svg', style="max-width: 89px", alt='').m-auto
-              h5.text-center Un territorio
+              h5.text-center Un territorio.
           
           .col-lg-3.mb-4.mb-lg-0
             .tarjeta--boton.bg-color-ac20.p-4.h-100
@@ -105,7 +105,7 @@
                 .col-7
                   figure
                     img(src='@/assets/curso/tema2/12.svg', style="max-width: 89px", alt='').m-auto
-              h5.text-center Una población
+              h5.text-center Una población.
 
           .col-lg-3.mb-4.mb-lg-0
             .tarjeta--boton.bg-color-ac20.p-4.h-100
@@ -113,7 +113,7 @@
                 .col-7
                   figure
                     img(src='@/assets/curso/tema2/13.svg', style="max-width: 89px", alt='').m-auto
-              h5.text-center Un conjunto de asentamientos
+              h5.text-center Un conjunto de asentamientos.
 
           .col-lg-3.mb-4.mb-lg-0
             .tarjeta--boton.bg-color-ac20.p-4.h-100
@@ -121,7 +121,7 @@
                 .col-7
                   figure
                     img(src='@/assets/curso/tema2/14.svg', style="max-width: 89px", alt='').m-auto
-              h5.text-center Unas instituciones tanto públicas como privadas
+              h5.text-center Unas instituciones tanto públicas como privadas.
 
 </template>
 
