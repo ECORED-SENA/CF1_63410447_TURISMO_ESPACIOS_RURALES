@@ -32,7 +32,7 @@
 
 
     .full-width-bg.bg-fondo-3
-      .p-4.p-md-5
+      .p-4.p-md-5.py-md-0.pb-md-2
         p.mb-5 Sin embargo, estas no son las únicas actividades. También se incluyen la pesca, la ganadería, la minería, la extracción de recursos naturales, el turismo y la recreación. Los problemas que afectan a quienes habitan los espacios urbanos y rurales, así como la búsqueda del equilibrio territorial entre ambos, plantean nuevas funciones al espacio rural, que serán la oportunidad para alcanzar el equilibrio y el desarrollo. #[strong Estas funciones incluyen:] 
 
       .bgCarrusel
@@ -80,7 +80,7 @@
                 p.text-center.text-small.lh-sm Captura y mitigación de contaminantes en el agua, aire y suelo, contribuyendo a la sostenibilidad ambiental. 
 
 
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-4
         .col-lg-10
           .tarjeta.bg-color-p20.p-4.p-lg-5
             p.mb-0 El reto ahora es para las regiones rurales y sus pobladores, que aún persisten en abandonar sus predios, así como para los urbanos, que deben asumir nuevas formas de consumo y reconocer monetariamente el valor de los recursos que ofrece el medio rural. Esto implica una nueva relación entre lo urbano y lo rural, un pacto, acuerdo o contrato que reconozca la interdependencia entre ambos, defina el papel del mundo rural y lo dote de los instrumentos y elementos necesarios para su desarrollo. 
@@ -88,7 +88,7 @@
       .p-4.p-md-5
         p.mb-0 #[strong Según Edelmira Pérez (2001) el medio rural se debe entender dentro de sus cuatro componentes:]
 
-    .row.justify-content-center.my-5
+    .row.justify-content-center.my-4
       .col-lg-10
         .row.justify-content-center.align-items-stretch
           .col-lg-3.mb-4.mb-lg-0
