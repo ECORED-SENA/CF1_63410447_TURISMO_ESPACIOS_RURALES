@@ -277,10 +277,10 @@
           span El hombre y el uso de los espacios 
             
         figure.d-none.d-lg-block
-          img(src='@/assets/curso/tema3/figura3.svg', alt='La síntesis presenta  la clasificación  los espacios físicos en espacio real y espacio vital, subdividiendo el espacio real en espacio potencial, espacio artificial (urbano), y espacio natural, que a su vez se divide en adaptado (rural) y prístino. Cada categoría incluye una breve descripción que destaca las características y el grado de intervención humana en dichos espacios.')
+          img(src='@/assets/curso/tema3/figura3.svg', alt='El diagrama en el que se relacionan las necesidades y opciones del ser humano respecto al turismo. El diagrama empieza con la palabra hombre y se divide en dos ramas principales: necesidad y opción. La necesidad se subdivide en dos tipos: física y mental. A su vez, la opción se bifurca en descanso y relajarse, las cuales conducen al espacio turístico, que incluye turismo en playa y turismo de salud SPA.')
 
         figure.d-lg-none
-          img(src='@/assets/curso/tema3/figura3-r.svg', alt='La síntesis presenta  la clasificación  los espacios físicos en espacio real y espacio vital, subdividiendo el espacio real en espacio potencial, espacio artificial (urbano), y espacio natural, que a su vez se divide en adaptado (rural) y prístino. Cada categoría incluye una breve descripción que destaca las características y el grado de intervención humana en dichos espacios.')
+          img(src='@/assets/curso/tema3/figura3-r.svg', alt='El diagrama en el que se relacionan las necesidades y opciones del ser humano respecto al turismo. El diagrama empieza con la palabra hombre y se divide en dos ramas principales: necesidad y opción. La necesidad se subdivide en dos tipos: física y mental. A su vez, la opción se bifurca en descanso y relajarse, las cuales conducen al espacio turístico, que incluye turismo en playa y turismo de salud SPA.')
 
 </template>
 

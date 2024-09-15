@@ -71,8 +71,8 @@
             img.img-fluid(src='@/assets/curso/tema1/7.png', style="max-width:403px", alt="").mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
           .col-lg-6
             ul.custom-list.mb-0
-              li.mb-1 Actuar juntos.
               li.mb-1 Valorar su entorno.
+              li.mb-1 Actuar juntos.
               li.mb-1 Crear vínculos entre sectores.
               li.mb-0 Establecer relaciones con otros territorios y el resto del mundo.
 
