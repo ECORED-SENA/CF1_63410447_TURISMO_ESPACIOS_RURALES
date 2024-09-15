@@ -9,11 +9,11 @@
 
     .full-width-bg.bg-fondo-4
       .p-0.p-md-5
-        p.mb-5.mt-4.mt-sm-0 La nueva ruralidad propone tres tipos de opciones y oportunidades: la multifuncionalidad, la pluriactividad y el empleo rural no agrícola. 
+        p.mb-5.mt-4.mt-sm-0(data-aos="fade-left") La nueva ruralidad propone tres tipos de opciones y oportunidades: la multifuncionalidad, la pluriactividad y el empleo rural no agrícola. 
 
         .row.justify-content-center.mb-4
           .col-lg-10
-            .bg-color-p20.mb-4
+            .bg-color-p20.mb-4(data-aos="zoom-in")
               .row.justify-content-center.align-items-center.mb-4
                 .col-lg-auto
                   img.img-fluid(src="@/assets/curso/tema3/1.png", style="min-height:140px", alt="").mx-auto
@@ -22,7 +22,7 @@
                     h5.mb-1 La multifuncionalidad
                     p.mb-0 Tiene como objetivo mantener y sostener la población rural en sus lugares de origen, haciendo énfasis en los múltiples usos del suelo, entendido este último como sustento de la cultura y el paisaje, el cual debe ser preservado para la promoción de actividades como el turismo rural.
             
-            .bg-color-p20.mb-4
+            .bg-color-p20.mb-4(data-aos="zoom-in")
               .row.justify-content-center.align-items-center.mb-4
                 .col-lg-auto
                     img.img-fluid(src="@/assets/curso/tema3/2.png", style="min-height:140px", alt="").mx-auto
@@ -32,7 +32,7 @@
                     p.mb-0 Se refiere a las nuevas y diversas actividades que desarrollan los agricultores, y la multifuncionalidad como los nuevos usos o funciones del suelo rural.
 
         .tarjeta.bg-fondo-diapositiva-1.py-4.mb-5
-          LineaTiempoC.color-acento-contenido(text-small).px-4
+          LineaTiempoC.color-acento-contenido(text-small).px-4(data-aos="fade-up")
             .row(titulo="Semiagrícolas").justify-content-center.mt-5
               .col-lg-7.mb-4.mb-md-0
                 h4 Semiagrícolas 
@@ -58,7 +58,7 @@
         p.mb-5.mb-lg-0 #[strong Es necesario establecer que el éxito o fracaso de estas actividades planteadas dependerá de:]
     
     .tarjeta.bg-fondo-diapositiva-2.pb-4.pt-3.py-lg-5.px-4.mb-5
-      SlyderA(tipo='b').mt-4
+      SlyderA(tipo='b').mt-4(data-aos="zoom-in")
         .row.justify-content-center
           .col-lg-6
             h5.mb-4 Factores económicos
@@ -91,15 +91,15 @@
             figure
               img(src='@/assets/curso/tema3/9.png', alt='').mx-auto
 
-    p.mb-4 El empleo rural no agrícola se refiere a las actividades desarrolladas por los hogares rurales en áreas económicas distintas al empleo en su propia explotación agrícola. Estas actividades incluyen una amplia gama de labores, desde manufactureras, como la agroindustria, hasta diversos servicios, incluido el comercio. 
+    p.mb-4(data-aos="fade-left") El empleo rural no agrícola se refiere a las actividades desarrolladas por los hogares rurales en áreas económicas distintas al empleo en su propia explotación agrícola. Estas actividades incluyen una amplia gama de labores, desde manufactureras, como la agroindustria, hasta diversos servicios, incluido el comercio. 
 
     .full-width-bg.bg-fondo-2
       .p-0.p-md-5.pb-md-2
         .row.justify-content-center.my-5.mt-lg-0
-          .col-lg-3.d-none.d-lg-block
+          .col-lg-3.d-none.d-lg-block(data-aos="zoom-in")
             img.img-fluid(src='@/assets/curso/tema3/10.png', style="max-width: 100%", alt='').m-auto
 
-          .col-lg-9
+          .col-lg-9(data-aos="fade-right")
             AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-ac20")
               div(titulo="Atracción para la población rural")
                 p.mb-0 El empleo rural no agrícola es atractivo porque ofrece alternativas para superar la pobreza, algo que la actividad agrícola por sí sola a menudo no garantiza. 
@@ -114,20 +114,20 @@
           .col-lg-10
             .row.justify-content-center.align-items-stretch
               .col-lg-6.mb-4.mb-lg-0
-                .tarjeta--boton.card-bg.p-4.h-100.mb-4.mb-lg-0
+                .tarjeta--boton.card-bg.p-4.h-100.mb-4.mb-lg-0(data-aos="zoom-in")
                   img(src='@/assets/curso/tema3/11.png', style="max-width:100%", alt="").mx-auto.mb-4
                   h5.text-center Migración a las ciudades
                   p.lh-base.text-center.text-lg-left.text-small Una opción para los habitantes del medio rural es migrar a las ciudades en busca de mejores oportunidades económicas.
 
               .col-lg-6.mb-4.mb-lg-0
-                .tarjeta--boton.card-bg.p-4.h-100.mb-4.mb-lg-0
+                .tarjeta--boton.card-bg.p-4.h-100.mb-4.mb-lg-0(data-aos="zoom-in")
                   img(src='@/assets/curso/tema3/12.png', style="max-width:100%", alt="").mx-auto.mb-4
                   h5.text-center Diversificación de actividades en el campo
                   p.lh-base.text-center.text-lg-left.text-small La otra opción es diversificar las actividades dentro del campo, aprovechando el empleo rural no agrícola para incrementar los ingresos y mejorar las condiciones de vida sin abandonar el entorno rural.
 
-        p.mb-5 Este enfoque subraya la importancia de diversificar las fuentes de ingreso en las áreas rurales, promoviendo un desarrollo más integral que vincule la agricultura con otras actividades económicas para asegurar la sostenibilidad y el bienestar de las comunidades rurales. 
+        p.mb-5(data-aos="fade-right") Este enfoque subraya la importancia de diversificar las fuentes de ingreso en las áreas rurales, promoviendo un desarrollo más integral que vincule la agricultura con otras actividades económicas para asegurar la sostenibilidad y el bienestar de las comunidades rurales. 
 
-        .tarjeta.bg-color-t.shadow-soft
+        .tarjeta.bg-color-t.shadow-soft(data-aos="zoom-in")
           .row.justify-content-center.align-items-center
             .col-xl
               .py-4.px-5.py-xl-3.pe-xl-0
@@ -142,16 +142,16 @@
 
     Separador
     
-    .titulo-segundo.color-acento-contenido#t_3_1.mb-lg-0
+    .titulo-segundo.color-acento-contenido#t_3_1.mb-lg-0(data-aos="flip-up")
       h2 3.1 Definición de espacio rural
 
     .full-width-bg.bg-fondo-5
       .p-0.p-md-5
-        p.mb-5 El término espacio rural se refiere a una región o lugar determinado donde se llevan a cabo diversas actividades económicas, concretando así su relación con un espacio físico específico. 
+        p.mb-5(data-aos="fade-left") El término espacio rural se refiere a una región o lugar determinado donde se llevan a cabo diversas actividades económicas, concretando así su relación con un espacio físico específico. 
 
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-10
-            .bg-color-ac20.p-5
+            .bg-color-ac20.p-5(data-aos="zoom-in")
               .row.justify-content-center.align-items-center
                 .col-lg-auto
                   img.img-fluid(src="@/assets/curso/tema3/14.svg", style="max-width: 100%", alt="").mx-auto
@@ -159,11 +159,11 @@
                   h5.mt-4.mt-lg-0 Vinculación con actividades económicas
                   p.mb-0 Cualquier actividad económica, incluida la actividad turística, se desarrolla en un espacio físico, haciendo tangible la experiencia y permitiendo que el turista, según su motivación o expectativa, pueda descansar, recrearse, aprender e interactuar.
 
-        p.mb-5 Para entender el concepto de espacio rural, es esencial reconocer que el espacio físico es solo una de las muchas tipologías de espacio que tanto arquitectos como geógrafos han intentado organizar a través de la planificación y el ordenamiento territorial. 
+        p.mb-5(data-aos="fade-left") Para entender el concepto de espacio rural, es esencial reconocer que el espacio físico es solo una de las muchas tipologías de espacio que tanto arquitectos como geógrafos han intentado organizar a través de la planificación y el ordenamiento territorial. 
 
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-10
-            .bg-color-ac20.p-5
+            .bg-color-ac20.p-5(data-aos="zoom-in")
               .row.justify-content-center.align-items-center
                 .col-lg-auto
                   img.img-fluid(src="@/assets/curso/tema3/15.svg", style="max-width: 100%", alt="").mx-auto
@@ -171,12 +171,12 @@
                   h5.mt-4.mt-lg-0 Dimensiones del espacio físico
                   p.mb-0 El espacio físico es tangible y se define por sus dimensiones (por ejemplo, largo por ancho), su volumen, y el tiempo que se tarda en recorrerlo.
 
-        p El espacio rural es una entidad concreta y física que alberga actividades económicas y turísticas, organizadas y planificadas para optimizar su uso y asegurar una experiencia significativa para quienes lo visitan o lo habitan. 
+        p(data-aos="fade-left") El espacio rural es una entidad concreta y física que alberga actividades económicas y turísticas, organizadas y planificadas para optimizar su uso y asegurar una experiencia significativa para quienes lo visitan o lo habitan. 
 
-        p.mb-5.mb-lg-0 #[strong De esta manera, la siguiente figura explica rápidamente los tipos de espacio turístico:]
+        p.mb-5.mb-lg-0(data-aos="fade-right") #[strong De esta manera, la siguiente figura explica rápidamente los tipos de espacio turístico:]
 
     .row.justify-content-center
-      .col-lg-8
+      .col-lg-8(data-aos="zoom-in")
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 1.
           span Espacios físicos  
@@ -189,12 +189,12 @@
     
     Separador
 
-    .titulo-segundo.color-acento-contenido#t_3_2
+    .titulo-segundo.color-acento-contenido#t_3_2(data-aos="flip-up")
       h2 3.2 Tipologías del espacio físico
 
-    p.mb-5 Las tipologías del espacio físico pueden clasificarse en varias categorías, dependiendo del enfoque y los criterios utilizados. A continuación, se presentan algunas de las tipologías más comunes: 
+    p.mb-5(data-aos="fade-left") Las tipologías del espacio físico pueden clasificarse en varias categorías, dependiendo del enfoque y los criterios utilizados. A continuación, se presentan algunas de las tipologías más comunes: 
 
-    .tarjeta.bg-fondo-diapositiva-2.py-5.px-4.mb-5
+    .tarjeta.bg-fondo-diapositiva-2.py-5.px-4.mb-5(data-aos="zoom-in")
       SlyderA(tipo='b').mt-4
         .row.justify-content-center
           .col-lg-6
@@ -249,9 +249,9 @@
               img(src='@/assets/curso/tema3/21.png', alt='').mx-auto
 
 
-    p.mb-5 Ahora bien, otra forma de caracterizar el espacio turístico es tener en cuenta el recurso (atractivos), sobre los cuales se basa la práctica turística y la condición geográfica del espacio. De esta manera se definen cuatro tipos de entornos turísticos, como lo explica el siguiente cuadro conceptual: 
+    p.mb-5(data-aos="fade-left") Ahora bien, otra forma de caracterizar el espacio turístico es tener en cuenta el recurso (atractivos), sobre los cuales se basa la práctica turística y la condición geográfica del espacio. De esta manera se definen cuatro tipos de entornos turísticos, como lo explica el siguiente cuadro conceptual: 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 2.
@@ -263,14 +263,14 @@
         figure.d-lg-none
           img(src='@/assets/curso/tema3/figura2-r.svg', alt='El diagrama clasifica los entornos turísticos en cinco categorías principales: atributos, espacios litorales, espacios urbanos, espacios rurales y espacios naturales. Dentro de la categoría de atributos, se encuentran los naturales y los culturales. En los espacios rurales, se destacan el agroturismo, y en los espacios naturales, el ecoturismo.')
 
-    p.mb-5 Ante todo, se debe concebir el turismo como un "fenómeno espacial," basado en la valoración que la sociedad otorga a ciertos recursos (atractivos) o componentes geofísicos y geoculturales. El viaje es, ante todo, un cambio, una transición de espacios, como el paso del espacio de trabajo al espacio de ocio. 
+    p.mb-5(data-aos="fade-right") Ante todo, se debe concebir el turismo como un "fenómeno espacial," basado en la valoración que la sociedad otorga a ciertos recursos (atractivos) o componentes geofísicos y geoculturales. El viaje es, ante todo, un cambio, una transición de espacios, como el paso del espacio de trabajo al espacio de ocio. 
 
-    .titulo-tres
+    .titulo-tres(data-aos="flip-up")
       h4 El hombre y el uso de los espacios 
 
-    p.mb-5.mt-4 Observe el siguiente cuadro conceptual y analice el uso que el ser humano le da a cada uno de los espacios estudiados. 
+    p.mb-5.mt-4(data-aos="fade-left") Observe el siguiente cuadro conceptual y analice el uso que el ser humano le da a cada uno de los espacios estudiados. 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 3.

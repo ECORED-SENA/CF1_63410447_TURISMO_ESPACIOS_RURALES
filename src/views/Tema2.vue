@@ -8,9 +8,9 @@
       h1 La nueva ruralidad: conceptos y características 
 
 
-    p.mb-5 La función tradicional del espacio rural, centrada en la producción agrícola, de madera y de materia prima para las industrias, entre otras actividades que han sustentado el desarrollo económico, ha cambiado. Hoy, estos espacios tienen nuevas funciones, centradas no solo en la producción, sino también en la prestación de servicios, como garantizar la conservación de la naturaleza y el ambiente para las generaciones futuras, así como la vida y el bienestar de la población rural y urbana, en última instancia, el bienestar humano. 
+    p.mb-5(data-aos="flip-up") La función tradicional del espacio rural, centrada en la producción agrícola, de madera y de materia prima para las industrias, entre otras actividades que han sustentado el desarrollo económico, ha cambiado. Hoy, estos espacios tienen nuevas funciones, centradas no solo en la producción, sino también en la prestación de servicios, como garantizar la conservación de la naturaleza y el ambiente para las generaciones futuras, así como la vida y el bienestar de la población rural y urbana, en última instancia, el bienestar humano. 
 
-    .tarjeta.bg-color-t.shadow-soft.mb-5
+    .tarjeta.bg-color-t.shadow-soft.mb-5(data-aos="zoom-in")
       .row.justify-content-center.align-items-center
         .col-lg
           .py-3.px-5.pe-lg-0
@@ -23,7 +23,7 @@
           img.img-fluid(src="@/assets/curso/tema2/1.svg", style="max-width:100%", alt="").mx-auto.mb-4.mb-lg-0
 
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/tema2/3.png')})`}"
       )
@@ -33,14 +33,14 @@
 
     .full-width-bg.bg-fondo-3
       .p-4.p-md-5.py-md-0.pb-md-2
-        p.mb-5 Sin embargo, estas no son las únicas actividades. También se incluyen la pesca, la ganadería, la minería, la extracción de recursos naturales, el turismo y la recreación. Los problemas que afectan a quienes habitan los espacios urbanos y rurales, así como la búsqueda del equilibrio territorial entre ambos, plantean nuevas funciones al espacio rural, que serán la oportunidad para alcanzar el equilibrio y el desarrollo. #[strong Estas funciones incluyen:] 
+        p.mb-5(data-aos="fade-left") Sin embargo, estas no son las únicas actividades. También se incluyen la pesca, la ganadería, la minería, la extracción de recursos naturales, el turismo y la recreación. Los problemas que afectan a quienes habitan los espacios urbanos y rurales, así como la búsqueda del equilibrio territorial entre ambos, plantean nuevas funciones al espacio rural, que serán la oportunidad para alcanzar el equilibrio y el desarrollo. #[strong Estas funciones incluyen:] 
 
       .carousel-bg
         .row.justify-content-center.align-items-center.my-5
-          .col-lg-3.d-none.d-lg-block
+          .col-lg-3.d-none.d-lg-block(data-aos="zoom-in")
             img(src='@/assets/curso/tema2/4.png', style="max-width: 100%", alt='').m-auto
           .col-lg-8
-            SlyderF.mb-5(columnas="col-lg-6 col-xxl-4")
+            SlyderF.mb-5(columnas="col-lg-6 col-xxl-4")(data-aos="zoom-in-up")
               .tarjeta.bg-white.p-4.shadow-top-left-right
                   img(src='@/assets/curso/tema2/5.svg', style="max-width: 89px", alt='').mx-auto.mb-4
                   h6.text-center #[strong Equilibrio ecológico] 
@@ -83,7 +83,7 @@
       .row.justify-content-center.mb-4
         .col-lg-10
           .tarjeta.bg-color-p20.p-4.p-lg-5
-            p.mb-0 El reto ahora es para las regiones rurales y sus pobladores, que aún persisten en abandonar sus predios, así como para los urbanos, que deben asumir nuevas formas de consumo y reconocer monetariamente el valor de los recursos que ofrece el medio rural. Esto implica una nueva relación entre lo urbano y lo rural, un pacto, acuerdo o contrato que reconozca la interdependencia entre ambos, defina el papel del mundo rural y lo dote de los instrumentos y elementos necesarios para su desarrollo. 
+            p.mb-0(data-aos="fade-left") El reto ahora es para las regiones rurales y sus pobladores, que aún persisten en abandonar sus predios, así como para los urbanos, que deben asumir nuevas formas de consumo y reconocer monetariamente el valor de los recursos que ofrece el medio rural. Esto implica una nueva relación entre lo urbano y lo rural, un pacto, acuerdo o contrato que reconozca la interdependencia entre ambos, defina el papel del mundo rural y lo dote de los instrumentos y elementos necesarios para su desarrollo. 
 
       .p-4.p-md-5
         p.mb-0 #[strong Según Edelmira Pérez (2001) el medio rural se debe entender dentro de sus cuatro componentes:]
@@ -92,7 +92,7 @@
       .col-lg-10
         .row.justify-content-center.align-items-stretch
           .col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.bg-color-ac20.p-4.h-100
+            .tarjeta--boton.bg-color-ac20.p-4.h-100(data-aos="zoom-in-up")
               .row.justify-content-center.mb-3
                 .col-7
                   figure
@@ -100,7 +100,7 @@
               h5.text-center Un territorio.
           
           .col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.bg-color-ac20.p-4.h-100
+            .tarjeta--boton.bg-color-ac20.p-4.h-100(data-aos="zoom-in-up")
               .row.justify-content-center.mb-3
                 .col-7
                   figure
@@ -108,7 +108,7 @@
               h5.text-center Una población.
 
           .col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.bg-color-ac20.p-4.h-100
+            .tarjeta--boton.bg-color-ac20.p-4.h-100(data-aos="zoom-in-up")
               .row.justify-content-center.mb-3
                 .col-7
                   figure
@@ -116,7 +116,7 @@
               h5.text-center Un conjunto de asentamientos.
 
           .col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.bg-color-ac20.p-4.h-100
+            .tarjeta--boton.bg-color-ac20.p-4.h-100(data-aos="zoom-in-up")
               .row.justify-content-center.mb-3
                 .col-7
                   figure
