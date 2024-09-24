@@ -131,12 +131,13 @@ export default {
       referencia:
         'Reyes Guarnizo, A. B., & Díaz Riveros, C. A. (2024). Ruralidad y gobernanza de las comunidades, en clave de nuevas ruralidades. Territorios, (50), 1-35.',
       tipo: 'Artículo',
-      link: 'http://www.scielo.org.co/pdf/terri/n50/2215-7484-terri-50-e10.pdf',
+      link:
+        'https://revistas.urosario.edu.co/index.php/territorios/article/view/12236/12017',
     },
     {
       tema: 'Tipologías del espacio físico',
       referencia:
-        'Reig Martínez, E., Goerlich Gisbert, F. J., & Cantarino Martí, I. (2016). Delimitación de áreas rurales y urbanas a nivel local [Libro electrónico]. Fundación BBVA.',
+        'Reig Martínez, E., Goerlich Gisbert, F. J., & Cantarino Martí, I. (2016). <em>Delimitación de áreas rurales y urbanas a nivel local</em> [Libro electrónico]. Fundación BBVA.',
       tipo: 'Libro',
       link:
         'https://www.google.com.co/books/edition/Delimitaci%C3%B3n_de_%C3%A1reas_rurales_y_urbana/6qqSCwAAQBAJ?hl=es-419&gbpv=1',
@@ -197,7 +198,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Boullon, R. (1985). Planificación del Espacio Turístico. México: Editorial Trillas.',
+        'Boullon, R. (1985). <em>Planificación del Espacio Turístico</em>. México: Editorial Trillas.',
       link: '',
     },
     {
@@ -207,24 +208,24 @@ export default {
     },
     {
       referencia:
-        'Lozato, J. P. (1991). Geografía del Turismo: Del espacio contemplado al espacio consumido. Barcelona: Editorial Masson.',
+        'Lozato, J. P. (1991). <em>Geografía del Turismo: Del espacio contemplado al espacio consumido</em>. Barcelona: Editorial Masson.',
       link: '',
     },
     {
       referencia:
-        'Pérez, E. (2001). Hacia una nueva visión de lo rural. Artículo parte I del libro: ¿Una nueva ruralidad en América Latina? Buenos Aires: CLACSO.',
+        'Pérez, E. (2001). Hacia una nueva visión de lo rural. Artículo parte I del libro: <em>¿Una nueva ruralidad en América Latina?</em> Buenos Aires: CLACSO.',
       link: '',
     },
     {
       referencia:
-        'Cardoso, A. (2024). Turismo y nueva ruralidad: permanencia y cambio en torno a la práctica turística. Antropología Americana, 9(17). ',
+        'Cardoso, A. (2024). Turismo y nueva ruralidad: permanencia y cambio en torno a la práctica turística. <em>Antropología Americana</em>, 9(17). ',
       link: 'https://revistasipgh.org/index.php/anam/article/view/3569',
     },
     {
       referencia:
         'Reyes Guarnizo, A. B., y Díaz Riveros, C. A. (2024). Ruralidad y gobernanza de las comunidades, en clave de nuevas ruralidades. territorios, (50).',
       link:
-        'http://www.scielo.org.co/scielo.php?pid=S0123-84182024000100009&script=sci_arttext',
+        'https://revistas.urosario.edu.co/index.php/territorios/article/view/12236/12017',
     },
   ],
   creditos: [
@@ -278,11 +279,6 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

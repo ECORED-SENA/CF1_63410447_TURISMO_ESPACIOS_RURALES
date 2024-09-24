@@ -44,21 +44,21 @@
               .tarjeta.bg-white.p-4.shadow-top-left-right
                   img(src='@/assets/curso/tema2/5.svg', style="max-width: 89px", alt='').mx-auto.mb-4
                   h6.text-center #[strong Equilibrio ecológico] 
-                  p.text-center.text-small.lh-sm Conjunto de equipos interconectados que comparten recursos utilizando dispositivos que permiten el envío y recepción de datos. Facilitan la compartición de recursos y reducción de costos en una red informática.
+                  p.text-center.text-small.lh-sm Conservación de los recursos naturales y mantenimiento y producción del paisaje. 
 
               .tarjeta.bg-white.p-4.shadow-top-left-right
                 .row.justify-content-center.mb-3
                   .col-8
                     img(src='@/assets/curso/tema2/6.svg', style="max-width: 89px", alt='').m-auto
                 h6.text-center Producción de agua limpia 
-                p.text-center.text-small.lh-sm Las TIC han transformado el acceso a contenidos, servicios y aplicaciones. Servicios como comercio electrónico, banca en línea, y acceso a la administración pública han surgido como nuevos canales de difusión de productos y servicios.
+                p.text-center.text-small.lh-sm Conservación de las fuentes de agua y aseguramiento de la producción de agua limpia. 
               
               .tarjeta.bg-white.p-4.shadow-top-left-right
                 .row.justify-content-center.mb-3
                   .col-8
                     img(src='@/assets/curso/tema2/7.svg', style="max-width: 89px", alt='').m-auto
                 h6.text-center Espacios de recreación 
-                p.text-center.text-small.lh-sm Provisión de áreas para la recreación y el esparcimiento al aire libre, cada vez más necesarios para la población urbana. 
+                p.text-center.text-small.lh-sm Provisión de áreas para la recreación y el esparcimiento al aire libre, cada vez más necesarios para la población urbana.
 
               .tarjeta.bg-white.p-4.shadow-top-left-right
                   img(src='@/assets/curso/tema2/8.svg', style="max-width: 89px", alt='').mx-auto.mb-4

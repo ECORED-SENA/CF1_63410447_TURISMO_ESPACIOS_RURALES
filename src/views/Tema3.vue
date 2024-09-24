@@ -31,6 +31,9 @@
                     h5.mb-1 La pluriactividad
                     p.mb-0 Se refiere a las nuevas y diversas actividades que desarrollan los agricultores, y la multifuncionalidad como los nuevos usos o funciones del suelo rural.
 
+
+        p(data-aos="fade-right").mb-5 Considerar la tierra como fuente de actividades alternativas de producción, no necesariamente enmarcadas en lo agropecuario, plantea actividades como: 
+
         .tarjeta.bg-fondo-diapositiva-1.py-4.mb-5
           LineaTiempoC.color-acento-contenido(text-small).px-4(data-aos="fade-up")
             .row(titulo="Semiagrícolas").justify-content-center.mt-5
@@ -50,7 +53,7 @@
             .row(titulo="Sostenibilidad y energía").justify-content-center.mt-5
               .col-lg-7.mb-4.mb-md-0
                 h4 Sostenibilidad y energía 
-                p Actividades como acuerdos para el mantenimiento del paisaje, producción de energía eólica, y captura de CO2. 
+                p Actividades como acuerdos para el mantenimiento del paisaje, producción de energía eólica, y captura de CO#[sub 2]. 
               .col-lg-4
                 img.img-fluid(src="@/assets/curso/tema3/5.png", style="max-width:100%", alt="").mx-auto.mb-4
 
@@ -147,7 +150,7 @@
 
     .full-width-bg.bg-fondo-5
       .p-0.p-md-5
-        p.mb-5(data-aos="fade-left") El término espacio rural se refiere a una región o lugar determinado donde se llevan a cabo diversas actividades económicas, concretando así su relación con un espacio físico específico. 
+        p.mb-5(data-aos="fade-left") El término #[strong espacio rural] se refiere a una región o lugar determinado donde se llevan a cabo diversas actividades económicas, concretando así su relación con un espacio físico específico. 
 
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-10
@@ -252,7 +255,7 @@
     p.mb-5(data-aos="fade-left") Ahora bien, otra forma de caracterizar el espacio turístico es tener en cuenta el recurso (atractivos), sobre los cuales se basa la práctica turística y la condición geográfica del espacio. De esta manera se definen cuatro tipos de entornos turísticos, como lo explica el siguiente cuadro conceptual: 
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
-      .col-lg-8
+      .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 2.
           span Entornos turísticos
@@ -271,7 +274,7 @@
     p.mb-5.mt-4(data-aos="fade-left") Observe el siguiente cuadro conceptual y analice el uso que el ser humano le da a cada uno de los espacios estudiados. 
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-8
+      .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 3.
           span El hombre y el uso de los espacios 
