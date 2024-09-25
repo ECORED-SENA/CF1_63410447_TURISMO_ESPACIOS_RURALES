@@ -44,13 +44,13 @@
               .tarjeta--boton.card-bg.p-4.h-100(data-aos="zoom-in")
                 img(src='@/assets/curso/intro/3.svg', style="max-width:89px", alt="").mx-auto.mb-4
                 h5.text-center Sostenibilidad y equilibrio
-                p.lh-base.text-center.text-small Promover una multifuncionalidad del suelo que equilibre la conservación del medio ambiente con el desarrollo económico.
+                p.lh-base.text-center Promover una multifuncionalidad del suelo que equilibre la conservación del medio ambiente con el desarrollo económico.
   
             .col-lg-6.mb-4.mb-lg-0
               .tarjeta--boton.card-bg.p-4.h-100(data-aos="zoom-in")
                 img(src='@/assets/curso/intro/4.svg', style="max-width:89px", alt="").mx-auto.mb-4
                 h5.text-center Oportunidades económicas
-                p.lh-base.text-center.text-small Explorar nuevas actividades que permitan a las comunidades rurales prosperar sin abandonar sus tierras.
+                p.lh-base.text-center Explorar nuevas actividades que permitan a las comunidades rurales prosperar sin abandonar sus tierras.
   </template>
 
 <script>
