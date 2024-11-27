@@ -38,7 +38,7 @@
       .p-4.p-md-5
         .bg-color-p10.mb-5(data-aos="zoom-in")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.d-lg-none.d-xl-block
+            .col-lg-auto.d-lg-none.d-xl-block.d-none.d-md-block 
               img.img-fluid(src="@/assets/curso/tema1/4.png", style="min-height:417px", alt="").mx-auto
             .col-lg
               .p-4.pe-xl-5

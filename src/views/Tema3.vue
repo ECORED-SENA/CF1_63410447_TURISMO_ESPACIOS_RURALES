@@ -185,10 +185,10 @@
           span Espacios físicos  
             
         figure.d-none.d-lg-block
-          img(src='@/assets/curso/tema3/figura1.svg', alt='El diagrama organiza los tipos de espacios físicos en dos categorías principales: espacio real y espacio potencial. Dentro del espacio real, se destaca el espacio vital. El espacio potencial se subdivide en espacio artificial (urbano) y espacio natural, el cual a su vez se divide en adaptado (rural) y prístino.')
+          img(src='@/assets/curso/tema3/figura1.svg', alt='Imagen que presenta los espacios virtual y real, el cual se divide en espacio potencial, artificial y natural, este último se subdivide en adaptado y prístino.')
 
         figure.d-lg-none
-          img(src='@/assets/curso/tema3/figura1-r.svg', alt='El diagrama organiza los tipos de espacios físicos en dos categorías principales: espacio real y espacio potencial. Dentro del espacio real, se destaca el espacio vital. El espacio potencial se subdivide en espacio artificial (urbano) y espacio natural, el cual a su vez se divide en adaptado (rural) y prístino.')
+          img(src='@/assets/curso/tema3/figura1-r.svg', alt='Imagen que presenta los espacios virtual y real, el cual se divide en espacio potencial, artificial y natural, este último se subdivide en adaptado y prístino.')
     
     Separador
 
